@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.Button {
+  margin-top: 4rem;
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  width: 200px;
+  margin-left: 10px;
+}
+.Button:hover {
+  transition: 1s;
+  background-color: white;
+  color: black;
+}
+@media (max-width: 426px) {
+  .Button {
+    font-size: 11px;
+    padding: 3px;
+    padding-left: 3px;
+    width: 100px;
+  }
+}

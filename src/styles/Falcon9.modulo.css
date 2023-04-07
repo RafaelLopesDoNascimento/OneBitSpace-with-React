@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.FirstPlaceFalcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-position: right;
+  background-image: url(../imagens/Falcon9/01.jpg);
+  width: 100%;
+  height: 120vh;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+.titleFalcon9 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Title {
+  font-size: 10rem;
+}
+.Numbers {
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  justify-content: space-around;
+}
+.minSectionNumbers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.SecondPlaceFalcon {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background-position: right;
+  background-image: url(../imagens/Falcon9/02.jpg);
+
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+.paragrafo2 {
+  margin-left: 11rem;
+  width: 38rem;
+  font-size: 1.2rem;
+  height: auto;
+  display: flex;
+  line-height: 3rem;
+}
+.BigCarrossel {
+  background-color: black;
+  color: white;
+}
+.carrossel01 {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  background-position: right;
+  background-image: url(../imagens/Falcon9/03.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+
+.carrossel02 {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  background-position: right;
+  flex-direction: column;
+  background-image: url(../imagens/Falcon9/04.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+
+.carrossel03 {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  background-position: right;
+  background-image: url(../imagens/Falcon9/05.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+
+.carrossel04 {
+  display: flex;
+  background-position: right;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../imagens/Falcon9/06.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+
+.carrossel05 {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-direction: column;
+  background-position: right;
+  background-image: url(../imagens/Falcon9/07.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+}
+
+.SectionDetalhes {
+  margin-left: 10rem;
+  width: 450px;
+}
+.conteudoText {
+  height: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Merlim {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../imagens/Falcon9/08.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  background-position: right;
+}
+.titleFalcon9 {
+  display: flex;
+  align-items: center;
+  margin-left: 3rem;
+}
+@media (max-width: 769px) {
+  .paragrafo2 {
+    font-size: 16px;
+    width: 450px;
+    line-height: 2rem;
+    margin-right: 3rem;
+  }
+  .Title {
+    font-size: 6rem;
+  }
+
+  .SectionDetalhes {
+    margin-right: 3rem;
+    width: 350px;
+  }
+}
+@media (max-width: 426px) {
+  .titleFalcon9 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+  .Title {
+    font-size: 4rem;
+  }
+  .minSectionNumbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .paragrafo1 {
+    font-size: 12px;
+    margin-left: 1rem;
+  }
+  .paragrafo2 {
+    align-items: center;
+    width: 300px;
+    font-size: 17px;
+    line-height: 2rem;
+    margin-left: 1rem;
+  }
+  .Merlim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .SectionDetalhes {
+    margin-left: 1rem;
+  }
+  .textDetalhes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: baseline;
+  }
+}
+@media (max-width: 376px) {
+  .textDetalhes {
+    align-items: flex-start;
+  }
+  .SectionDetalhes {
+    width: 300px;
+    margin-right: 2rem;
+  }
+  #MerlimSection {
+    width: 280px;
+    margin-right: 0rem;
+  }
+  .Title {
+    font-size: 2.5rem;
+  }
+  .paragrafo1 {
+    font-size: 10px;
+  }
+  .SectionDetalhes {
+    font-size: 11px;
+    width: 280px;
+  }
+}

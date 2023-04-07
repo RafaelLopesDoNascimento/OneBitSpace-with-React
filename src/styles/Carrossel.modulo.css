@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+.geral {
+  background-color: black;
+}
+
+.Container {
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.ContainerCarrossel1 {
+  background-image: url(../imagens/Falcon9/09.jpg);
+}
+.ContainerCarrossel2 {
+  background-image: url(../imagens/Falcon9/10.jpg);
+}
+.ContainerCarrossel3 {
+  background-image: url(../imagens/Falcon9/11.jpg);
+}
+.ContainerCarrossel4 {
+  background-image: url(../imagens/Falcon9/12.jpg);
+}
+.ContainerCarrossel5 {
+  background-image: url(../imagens/Falcon9/13.jpg);
+}
+.ContainerCarrossel6 {
+  background-image: url(../imagens/Falcon9/14.jpg);
+}
+.miniTexto {
+  background-color: black;
+  color: white;
+  margin-bottom: 4rem;
+  width: 65rem;
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 450px) {
+  .miniTexto {
+    width: 400px;
+  }
+}
+@media (max-width: 376px) {
+  .miniTexto {
+    padding: 10px;
+    width: 350px;
+  }
+}
+@media (max-width: 320px) {
+  .miniTexto {
+    width: 300px;
+  }
+}
